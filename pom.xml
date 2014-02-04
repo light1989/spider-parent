@@ -9,7 +9,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.encoding>UTF-8</maven.compiler.encoding>
 
-		<spring.version>3.0.6.RELEASE</spring.version>
+		<spring.version>3.1.4.RELEASE</spring.version>
 		<ibatis.version>2.3.4.726</ibatis.version>
 		<cxf.version>2.5.0</cxf.version>
 		<quartz.version>1.8.5</quartz.version>
@@ -18,10 +18,19 @@
 		<jackson.version>1.9.2</jackson.version>
 		<jersey.version>1.10</jersey.version>
 		<redis.version>1.2.1</redis.version>
+		<junit.version>3.8.1</junit.version>
 	</properties>
 	
-	<profiles>
+	<dependencies>
+	    <dependency>
+	      <groupId>junit</groupId>
+	      <artifactId>junit</artifactId>
+	      <version>${junit.version}</version>
+	      <scope>test</scope>
+	    </dependency>
+    </dependencies>
 	
+	<profiles>
 		<profile>
 			<id>development</id>
 			<activation>
@@ -39,7 +48,6 @@
 			<properties>
 			</properties>
 		</profile>
-		
 	</profiles>
 	
 </project>
