@@ -18,10 +18,21 @@
 		<jackson.version>1.9.2</jackson.version>
 		<jersey.version>1.10</jersey.version>
 		<redis.version>1.2.1</redis.version>
-		<junit.version>3.8.1</junit.version>
+		<junit.version>4.7</junit.version>
 		
 		<log4j.version>1.2.14</log4j.version>
         <slf4j.version>1.6.4</slf4j.version>
+        
+        <commons-lang.version>2.4</commons-lang.version>
+        <commons-dbcp.version>1.4</commons-dbcp.version>
+        <commons-configuration.version>1.6</commons-configuration.version>
+        <commons-httpclient.version>3.1</commons-httpclient.version>
+        <commons-codec.version>1.5</commons-codec.version>
+        <commons-io.version>2.0</commons-io.version>
+        <commons-logging.version>1.1.1</commons-logging.version>
+        <commons-collections.version>3.2.1</commons-collections.version>
+        
+        <mysql.version>5.1.16</mysql.version>
 	</properties>
 	
 	<dependencies>
